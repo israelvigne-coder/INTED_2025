@@ -1,0 +1,231 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "private_outputs": true,
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyOU0f5/hkCNWzRXEntYuIaW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/israelvigne-coder/INTED_2025/blob/main/%20Lista%20de%20Exerc%C3%ADcios%20I%20-%20Estruturas%20Condicionais%20em%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "05sKCX4Tl01m"
+      },
+      "outputs": [],
+      "source": [
+        "numero=int(input('digite o numero: '))\n",
+        "\n",
+        "if numero>10:\n",
+        "    print('numero maior que 10')\n",
+        "elif numero<10:\n",
+        "    print('numero menor que 10')\n",
+        "else:\n",
+        "    print('numero igual a 10')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede um número inteiro ao usuário\n",
+        "numero = int(input(\"Digite um número inteiro: \"))\n",
+        "\n",
+        "# Verifica se o número é divisível por 2\n",
+        "if numero % 2 == 0:\n",
+        "    print(\"O número é par.\")\n",
+        "else:\n",
+        "  print(\"O número é impar\")\n"
+      ],
+      "metadata": {
+        "id": "UfDZ0v0Tmonj"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome=input('digite o nome: ')\n",
+        "\n",
+        "if \"a\" in nome:\n",
+        "\n",
+        "  print(\"contém  a\")\n",
+        "else:\n",
+        "  print(\"não contém  a\")"
+      ],
+      "metadata": {
+        "id": "tVAZTkEirgXX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num=int(input(\"digite um numero:\"))\n",
+        "\n",
+        "if(num%5==0):\n",
+        "  print(\"é multiplo de 5\")\n",
+        "else:\n",
+        "  print(\"não é multiplo de 5\")"
+      ],
+      "metadata": {
+        "id": "8GDPAsjvsm0l"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede a temperatura atual\n",
+        "temperatura = float(input(\"Digite a temperatura atual em °C: \"))\n",
+        "\n",
+        "# Verifica se está quente ou frio\n",
+        "if temperatura > 30:\n",
+        "    print(\"Está quente!\")\n",
+        "else:\n",
+        "    print(\"Está frio!\")"
+      ],
+      "metadata": {
+        "id": "lUP8-eHlt5ye"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede ao usuário que digite S ou N\n",
+        "resposta = input(\"Digite 'S' para continuar ou 'N' para sair: \").upper()\n",
+        "\n",
+        "# Verifica a resposta\n",
+        "if resposta == \"S\":\n",
+        "    print(\"Você escolheu continuar!\")\n",
+        "elif resposta == \"N\":\n",
+        "    print(\"Você escolheu sair!\")\n",
+        "else:\n",
+        "    print(\"Opção inválida. Digite apenas 'S' ou 'N'.\")"
+      ],
+      "metadata": {
+        "id": "csFWBMZYuLzc"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede um número ao usuário\n",
+        "numero = float(input(\"Digite um número: \"))\n",
+        "\n",
+        "# Verifica se é negativo, zero ou positivo\n",
+        "if numero < 0:\n",
+        "    print(\"negativo.\")\n",
+        "elif numero > 0 :\n",
+        "    print(\"positivo.\")\n",
+        "else:\n",
+        "    print(\"zero.\")"
+      ],
+      "metadata": {
+        "id": "0Y9imEKHuUJO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede ao usuário um número de 1 a 7\n",
+        "numero = int(input(\"Digite um número de 1 a 7: \"))\n",
+        "\n",
+        "# Associa o número ao dia da semana\n",
+        "if numero == 1:\n",
+        "    print(\"Domingo\")\n",
+        "elif numero == 2:\n",
+        "    print(\"Segunda-feira\")\n",
+        "elif numero == 3:\n",
+        "    print(\"Terça-feira\")\n",
+        "elif numero == 4:\n",
+        "    print(\"Quarta-feira\")\n",
+        "elif numero == 5:\n",
+        "    print(\"Quinta-feira\")\n",
+        "elif numero == 6:\n",
+        "    print(\"Sexta-feira\")\n",
+        "elif numero == 7:\n",
+        "    print(\"Sábado\")\n",
+        "else:\n",
+        "    print(\"Dia não encontrado\")"
+      ],
+      "metadata": {
+        "id": "C_i3ZYM_vnUJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede o ano ao usuário\n",
+        "ano = int(input(\"Digite um ano: \"))\n",
+        "\n",
+        "# Verifica se o ano é bissexto\n",
+        "if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):\n",
+        "    print(\" bissexto.\")\n",
+        "else:\n",
+        "    print(\"não  bissexto.\")"
+      ],
+      "metadata": {
+        "id": "0Y4Urg9uvy0I"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pede os dados ao usuário\n",
+        "horas_trabalhadas = float(input(\"Digite a quantidade de horas trabalhadas: \"))\n",
+        "valor_hora = float(input(\"Digite o valor por hora: \"))\n",
+        "\n",
+        "# Verifica se há horas extras\n",
+        "if horas_trabalhadas <= 40:\n",
+        "    salario = horas_trabalhadas * valor_hora\n",
+        "else:\n",
+        "    horas_extras = horas_trabalhadas - 40\n",
+        "    salario = (40 * valor_hora) + (horas_extras * valor_hora * 1.5)\n",
+        "\n",
+        "# Mostra o resultado\n",
+        "print(f\"O salário total é R$ {salario:.2f}\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "W_bS9Yrxv-cS"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
